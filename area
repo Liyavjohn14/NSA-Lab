@@ -1,0 +1,54 @@
+2.
+echo "To find Area"
+echo -e "Menu\n 1.Circle\n 2.Rectangle\n 3.Triangle\n"
+read n
+case $n in
+1)echo "Area of Circle:"
+echo "Enter radius:"
+read r
+((b=22*r*r))
+((c=b/7)
+echo "The area of circle is $c"
+;;
+2)echo "Area of Rectangle:"
+echo "Enter length and breadth:"
+read l
+read b
+((area=l*b))
+echo "The area of rectangle is $area"
+;;
+3)echo "Area of Triangle"
+read -p "Enter base and height:" b h
+((area=3*b*h))
+((c=area/2))
+echo "The area of triangle is: $c"
+;;
+esac
+////
+
+Q3.chmod a+w f1
+Q4.ps
+Q5.pwd
+/////
+
+1.
+mkdir FISAT
+cd FISAT
+mkdir Day1
+mkdir Day2
+mkdir Day3
+cd Day1
+vim f1
+vim f2
+vim f3
+cd ..
+cd Day2
+vim m1
+vim m2
+cd Day3
+vim c1
+vim c2
+///////
+Q1.cat m1 m2| cat>m3
+Q2.cp -r m3 /home/exam/FISAT/Day3/c3
+
